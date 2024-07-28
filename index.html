@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Decodificador Alura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/alura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <div class="div__input">
+            <textarea id="input" placeholder="Digite seu texto..."></textarea>
+            <div class="div__aviso">
+                <img src="img/exclamacao.png" alt="Ponto de exclamação">
+                <p>Apenas letras minúsculas e sem acento!</p>
+            </div>
+            <div class="div__btn">
+                <input type="submit" id="encryptb" value="Criptografar" onclick="encrypt()">
+                <input type="submit" id="decryptb" value="Descriptografar" onclick="decrypt()">
+            </div>
+        </div>
+
+        <div id="output">
+            <img src="img/figura.png" alt="Figura Cartoon de um garoto olhando para um diamante através de uma lupa">
+            <h2>Nenhuma mensagem encontrada...</h2>
+            <p><span>Por favor, digite uma mensagem que deseja para começar a criptografar ou descriptografar!</span></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Miuxa - 2024.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body> 
+</html>
